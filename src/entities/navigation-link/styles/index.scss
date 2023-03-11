@@ -1,0 +1,22 @@
+.navigation-link {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  color: #000;
+  text-align: center;
+  border-bottom: 1px solid rgb(128, 128, 128);
+
+  &:hover {
+    background-color: rgb(249, 173, 249);
+    color: #fff;
+  }
+
+  &:focus, &.active {
+    background-color: rgb(210, 3, 210);
+    color: #fff;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}

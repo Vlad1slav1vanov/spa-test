@@ -5,10 +5,22 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000;
+}
+
 * {
   margin: 0;
   padding: 0;
   border: none;
   list-style-type: none;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }

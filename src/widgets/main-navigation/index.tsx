@@ -12,10 +12,14 @@ const navLinks = [
 const MainNavigation: React.FC = () => {
   return (
     <div className='main-navigation'>
+      <h2 className='main-navigation__title'>Навигация</h2>
       <nav className='main-navigation__navigation'>
         <ul className='main-navigation__list'>
           {navLinks.map(link =>
-            <li key={link.id}>
+            <li
+            className='main-navigation__item'
+            key={link.id}
+            >
               <NavigationLink
               path={link.path}
               name={link.name}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import './styles/index.scss'
 
 interface NavigationLinkProps {
   path: string
@@ -12,9 +13,7 @@ const NavigationLink: React.FC<NavigationLinkProps> = ({ path, name }) => {
     to={path}
     className='navigation-link'
     >
-      <span className='navigation-link__name'>
-        {name}
-      </span>
+      {name}
     </NavLink>
   )
 }
