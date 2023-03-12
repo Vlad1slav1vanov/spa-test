@@ -1,0 +1,27 @@
+.send-button {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(145, 244, 145);
+  color: rgb(226, 6, 226);
+  font-size: 30px;
+  border: 2px solid rgb(226, 6, 226);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(51, 209, 51);
+    color: rgb(255, 255, 255);
+  }
+  
+  &:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+  
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(226, 6, 226);
+  }
+}

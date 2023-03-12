@@ -24,33 +24,6 @@
   }
 }
 
-.main-footer__title-wrapper {
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  &:hover {
-    background-color: rgb(249, 173, 249);
-    color: #fff;
-
-    svg > path {
-      stroke: #fff;
-    }
-  }
-
-  &:focus, &.active {
-    background-color: rgb(210, 3, 210);
-    color: #fff;
-  }
-
-  &:active {
-    opacity: 0.8;
-  }
-}
-
 @keyframes open {
   from {
     height: 40px;
